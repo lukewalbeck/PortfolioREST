@@ -25,7 +25,7 @@ SECRET_KEY = '%%-)3a9n(j7)bne55^d)fw6@r)hp9fxqcjj4wan+t5_@s864ha'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lwalbeck.pythonanywhere.com']
 
 
 # Application definition
@@ -120,6 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/lwalbeck/RESTaurant-api/static'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, '')
+MEDIA_ROOT = '/home/lwalbeck/RESTaurant-api/media'
