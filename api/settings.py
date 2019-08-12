@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'recipes',
     'corsheaders',
+    'django_cleanup',
 ]
 
 MIDDLEWARE = [
