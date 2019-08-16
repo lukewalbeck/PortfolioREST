@@ -6,16 +6,16 @@ class FoodRecipeSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FoodRecipe
-        fields = ('title', 'description', 'image',)
+        fields = ('id', 'title', 'description', 'image',)
 
 class ProjectSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Project
-        fields = ('title', 'description', 'image',)
+        fields = ('id', 'title', 'description', 'image',)
 
 class PostSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Post
-        fields = ('title', 'content', 'image', 'created_at', 'updated_at')
+        fields = ('id', 'title', 'content', 'image', 'created_at', 'updated_at')
